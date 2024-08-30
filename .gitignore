@@ -1,0 +1,26 @@
+# Ignore node_modules in all Vercel related directories
+vercel/node_modules/
+vercel-deploy-service/node_modules/
+vercel-request-handler/node_modules/
+
+# Ignore .env files in all Vercel related directories
+vercel/.env
+vercel-deploy-service/.env
+vercel-request-handler/.env
+
+# Ensure no files are accidentally committed from these directories
+vercel/*env
+vercel-deploy-service/*env
+vercel-request-handler/*env
+
+# Ignore dist files in all Vercel related directories
+
+vercel/dist/
+vercel-deploy-service/dist/
+vercel-request-handler/dist/
+
+# Ignore package-lock files in all Vercel related directories
+
+vercel/package-lock.json/
+vercel-deploy-service/package-lock.json/
+vercel-request-handler/package-lock.json/
