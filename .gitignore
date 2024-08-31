@@ -24,3 +24,5 @@ vercel-request-handler/dist/
 vercel/package-lock.json/
 vercel-deploy-service/package-lock.json/
 vercel-request-handler/package-lock.json/
+
+frontend/node_modules
